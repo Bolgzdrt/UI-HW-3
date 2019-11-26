@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header id="headerBar">
+        <a class="title" href="../index.html">Style Customizer</a>
+    </header>
+
+    <div class="page_body">
+        <nav>
+            <ul>
+                <li>You are here:</li>
+                <li><a href="../index.html"><u>Home</u></a></li>
+                <li>></li>
+                <li><a href="header.html"><u>Header</u></a></li>
+                <li>></li>
+                <li>Color</li>
+            </ul>
+        </nav>
+
+        <h2>Select new header color:</h2>
+
+        <div><button type="button" onclick="setPurple()">Purple</button></div>
+        <div><button type="button" onclick="setYellow()">Yellow</button></div>
+
+        <script>
+            function setPurple() {
+                document.getElementById("headerBar").style.backgroundColor = "#B276B2";
+            }
+            function setYellow() {
+                document.getElementById("headerBar").style.backgroundColor = "#DECF3F";
+            }
+        </script>
+    </div>
+</body>
+
+</html>

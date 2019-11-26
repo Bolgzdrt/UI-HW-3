@@ -1,0 +1,106 @@
+body {
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    height: 60px;
+    font-size: 50px;
+    padding: 10px;
+    position: relative;
+}
+
+.title {
+    color: white !important;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+a.button {
+    appearance: button;
+    text-decoration: none;
+}
+
+.button {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    margin: 15px;
+}
+  
+.button:hover {
+    background-color: lightgray;
+}
+
+.page_body {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width: 256px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+  
+button:hover {
+    background-color: lightgray;
+}
+
+nav {
+    padding: 10px;
+    margin:10px;
+    font-size: 20px;
+}
